@@ -6,7 +6,8 @@ import { ExpenseDate } from './ExpenseDate';
 export const ExpenseItem = (props) => {
   
   const [title, setTitle] = useState(props.title);
-  
+  // state is seperated as per component instance basis 
+  console.log("ExpenseItem evaluated by react");
   // let title = props.title;
   
   const clickHandler = () =>{
